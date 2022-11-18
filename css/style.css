@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap'); /* google fonts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#335eea;
+    --link-color:#506690;
+    --btn-hover-color:#2b50c7;
+    --text-content:#869ab8;
+    --fixed-header-height:4-5rem;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color:#fafbfb;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer; /*üzerine gelince imlec degisiyor*/
+
+}
+
+
+
+
+
+

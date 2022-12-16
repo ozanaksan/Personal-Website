@@ -185,7 +185,7 @@ button{
     transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 .documentation_btn{
-    width: 150px;
+    width: 160px;
     height: 55px;
     font-size: 16px;
     font-weight: 500;

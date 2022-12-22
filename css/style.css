@@ -144,6 +144,14 @@ button{
     line-height: 31px;
     color: gray;
 }
+.about-details-text{
+    margin-top: 1.5rem;
+    font-size: 22px;
+    line-height: 31px;
+    color: gray;
+    text-align: center;
+
+}
 .btn_wrapper{
     margin-top: 3.5rem;
     display: flex;
@@ -337,7 +345,6 @@ button{
     font-size: var(--bs-icon-size);
     width: calc(var(--bs-icon-size) * 2);
     height: calc(var(--bs-icon-size) * 2);
-    color: var(--bs-primary);
 }
 
 .bs-icon-xs {
@@ -363,17 +370,13 @@ button{
 }
 
 .bs-icon.bs-icon-primary {
-    color: var(--bs-white);
     background: #189ab4;
 }
 
 .bs-icon.bs-icon-primary-light {
-    color: var(--bs-primary);
-    background: rgba(var(--bs-primary-rgb), .2);
 }
 
 .bs-icon.bs-icon-semi-white {
-    color: var(--bs-primary);
     background: rgba(255, 255, 255, .5);
 }
 
@@ -391,9 +394,6 @@ button{
 
 h1 {
     color: #189ab4;
-}
-
-#email-1 {
 }
 
 ul.social-bar {
@@ -442,5 +442,13 @@ ul#demo1 li:hover a {
     transform: translateY(-10px);
 }
 
+.copyright-text-details-text{
+    text-align: center !important;
+    color: #6c757d !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin:40px 40px 40px 40px;
+}
 
 
